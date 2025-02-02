@@ -1,0 +1,11 @@
+#include<stdio.h>
+union student{
+    int roll no;
+    char name[25];
+    int marks;
+};
+int main()
+{
+    union student s1={31,"abi",90};
+    printf("%d %s %d",s1.roll no,s1.name,s1.marks);
+}
